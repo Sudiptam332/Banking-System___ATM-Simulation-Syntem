@@ -1,0 +1,15 @@
+Run this querys on you Mysql server before run the project.
+
+1) create database bankmanagementsystem;
+
+2) use bankmanagementsystem;
+
+3) create table signup(formno varchar(20), name varchar(20), father_name varchar(20), dob varchar(20), gender varchar(20), email varchar(30), marital_status varchar(20), address varchar(50), city varchar(20), pin varchar(20), state varchar(20));
+
+4) create table signuptwo(formno varchar(20), religion varchar(20), category varchar(20), income varchar(20), education varchar(20), ocupation varchar(100), pan varchar(20), aadhar varchar(20), seniorCitizen varchar(20), exisitingAccount varchar(20));
+
+5) create table signupthree(formno varchar(20), actype varchar(40), cardnumber varchar(25), pinnumber varchar(10), facility varchar(100));
+
+6) create table login(formno varchar(20), cardnumber varchar(25), pinnumber varchar(10));
+
+7) create table bank(pin varchar(10), date varchar(50), type varchar(20), amount varchar(20));
